@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Quotes App</title>
+</head>
+<body>
+    <header id="home">
+        <div class="container p-5">
+            <div class="row align-items-center vh-100 justify-content-between gap-4 flex-md-nowrap">
+                <div class="col-md-6 text-center function rounded-5">
+                    <h1 class="fw-bolder m-5">Quote of the Day</h1>
+                    <p class="m-3">Press the button below to recieve a random quote!New Quote</p>
+                    <button onclick="backwardQuote()" class="btn btn-danger rounded-circle"><i class="fa-solid fa-backward-step"></i></button>
+                    <button onclick="getQuote()" class="btn btn-danger btn-lg m-3 rounded-5 px-5" id="get-quote">Get Quote</button>
+                    <button onclick="forwardQuote()" class="btn btn-danger rounded-circle"><i class="fa-solid fa-forward-step"></i></button>
+                </div>
+                <div class="col-md-6 text-center quotes rounded-5" id="demo"></div>
+            </div>
+        </div>
+    </header>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
+<!--  -->
